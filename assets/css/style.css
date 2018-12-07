@@ -1,0 +1,62 @@
+body {
+    background-image: url("../images/Lord.jpg");
+}
+#container {
+	background-color: rgba(149, 161, 40, 0.8);
+	width: 1000px;
+	margin: 50px auto;
+	height: 650px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 70px;
+	letter-spacing: 0.4rem;
+	color: blue;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+.counting-down {
+	font-weight: bold;
+}
+
+#time-remaining, h3 {
+	font-size: 30px;
+}
+
+.thebuttons {
+	border: 2px solid #1c02c7;
+	width: 300px;
+	margin: 150px auto;
+	height: 90px;
+	text-align: center;
+	font-size: 40px;
+	background-color: white;
+	padding-bottom: 8px;
+}
+
+#done-button {
+	margin-top: 70px;
+	margin-bottom: 60px;
+}
+
+#questions {
+	background-color: rgba(149, 161, 40, 0.8);
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+.bigger-container {
+	height: 1000px;
+}
+
+#results-page {
+	font-size: 25px;
+	margin-top: 120px;
+	line-height: 2rem;
+}
+
+#results-page h2 {
+	font-size: 35px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1">
+    <title>Lord of The Ring Trivia</title>
+    
+    <!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text.css" href="assets/css/reset.css">
+</head>
+<body>
+
+    <!-- Container -->
+    <div id="container">
+        <h1>Lord of the Rings Trivia!</h1>
+
+        <button class="thebuttons" id="start-button">Start</button>
+
+        <div id="questions">
+            <div class="counting-down" id="time-remaining">Time Remaining: <span class="counting-down" id="timer"></span> seconds</div>
+            <br><br><br><br>
+        <div id="question-1">
+                <h3>What is the name of the story Bilbo wrote about his adventures?</h3>
+				<br>
+				<input type="radio" id="q1c1" value="wrong" name="q1">The Hobbit by Bilbo Baggins
+				<input type="radio" id="q1c2" value="wrong" name="q1">The Silmarillion by Bilbo Baggins
+				<input type="radio" id="q1c3" value="correct" name="q1">A Hobbit Tale by Bilbo Baggins
+				<input type="radio" id="q1c4" value="wrong" name="q1">Into the West by Bilbo Baggins
+			</div>
+			<br><br/>
+			<div id="question-2">
+				<h3>What is the name of Aragorn's ring, the Ring of______?</h3>
+				<br>
+				<input type="radio" class="q-two" value="wrong" name="q2">Narya
+				<input type="radio" class="q-two" value="correct" name="q2">Barahir
+				<input type="radio" class="q-two" value="wrong" name="q2">Nenya
+				<input type="radio" class="q-two" value="wrong" name="q2">Vilya
+            </div>
+            <br></br>
+			<div id="question-3">
+				<h3>What were the names of the eagles who rescued Frodo and Sam from Mount Doom?</h3>
+				<br>
+				<input type="radio" class="q-three" value="wrong" name="q3">Golfimbul, Azog and Stybba
+				<input type="radio" class="q-three" value="wrong" name="q3">Crebain, Shadowfax and Brego
+				<input type="radio" class="q-three" value="wrong" name="q3">Gwaihir, Ecthelion and Idrial 
+				<input type="radio" class="q-three" value="correct" name="q3">Gwaihir, Landroval and Meneldor
+			</div>
+			<button class="thebuttons" id="done-button">Done</button>
+
+    <!-- Shows the result of the game -->
+		<div id="results">
+			<h2>All Done!</h2>
+			<br/>
+			<p>Correct Answers: <span id="correct-score"></span></p>
+			<p>Incorrect Answers: <span id="incorrect-score"></span></p>
+		</div>
+	</div>
+
+
+	<!-- Linking JavaScript & JQuery -->
+<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
