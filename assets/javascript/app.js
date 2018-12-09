@@ -58,5 +58,5 @@ $("#start-button").click(function(){
 // the results of the game will show after clicking done.
 $("#done-button").click(function(){
 	$("#questions").hide();
-	$("#results").show();
+	$("#results").hide();
 });
